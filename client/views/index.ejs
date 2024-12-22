@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <%- include('partials/header') %>
+    <main>
+      <div class="schedule">
+        <h1>
+          Schedule Your <br />
+          Daily Tasks With <br />
+          <span class="todo-txt">Todo!</span>
+        </h1>
+
+        <div class="btns">
+          <a href="/api/auth/signup"><button class="btn">Sign Up</button></a>
+          <a href="/api/auth/login"> <button class="btn">Login</button></a>
+        </div>
+      </div>
+      <div class="image">
+        <img src="/images/daily-task-2.jpg" alt="daily task image" />
+      </div>
+    </main>
+
+    <%- include('partials/footer') %>
+  </body>
+</html>
